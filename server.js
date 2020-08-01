@@ -6,5 +6,6 @@ mobileApp.tables.add('TBL_Users'); // Create a table for 'Book' with default set
 mobileApp.tables.add('TBL_Category'); // Create a table for 'Book' with default settings
 mobileApp.tables.add('TBL_Units');
 mobileApp.tables.add('TBL_Products');
+mobileApp.tables.add('V_Orders');
 app.use(mobileApp);
 app.listen(process.env.PORT || 3000);
