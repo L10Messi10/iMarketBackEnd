@@ -8,5 +8,6 @@ mobileApp.tables.add('TBL_Units');
 mobileApp.tables.add('TBL_Products');
 mobileApp.tables.add('V_Orders');
 mobileApp.tables.add('TBL_Orders');
+mobileApp.tables.add('TBL_Order_Details');
 app.use(mobileApp);
 app.listen(process.env.PORT || 3000);
