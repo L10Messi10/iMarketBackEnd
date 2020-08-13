@@ -9,5 +9,6 @@ mobileApp.tables.add('TBL_Products');
 mobileApp.tables.add('TBL_Orders');
 mobileApp.tables.add('TBL_Order_Details');
 mobileApp.tables.add('V_Orders');
+mobileApp.tables.add('V_Confirmed_Orders');
 app.use(mobileApp);
 app.listen(process.env.PORT || 3000);
