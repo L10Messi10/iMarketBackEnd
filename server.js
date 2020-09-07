@@ -11,5 +11,6 @@ mobileApp.tables.add('TBL_Order_Details');
 mobileApp.tables.add('V_Orders');
 mobileApp.tables.add('V_Confirmed_Orders');
 mobileApp.tables.add('TBL_MarketStatus');
+mobileApp.tables.add('V_Categories_Display');
 app.use(mobileApp);
 app.listen(process.env.PORT || 3000);
