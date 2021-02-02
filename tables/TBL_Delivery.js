@@ -7,6 +7,7 @@ table.read(function (context) {
 table.insert(function (context) {
     return context.execute();
 });
+
 table.update(function (context) {
     return context.execute();
 });
