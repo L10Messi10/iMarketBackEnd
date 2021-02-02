@@ -14,5 +14,6 @@ mobileApp.tables.add('TBL_MarketStatus');
 mobileApp.tables.add('V_Categories_Display');
 mobileApp.tables.add('TBL_Feedback');
 mobileApp.tables.add('TBL_SystemUsers');
+mobileApp.tables.add('TBL_Riders');
 app.use(mobileApp);
 app.listen(process.env.PORT || 3000);
